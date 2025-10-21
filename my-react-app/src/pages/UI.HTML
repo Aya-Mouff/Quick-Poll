@@ -1,0 +1,33 @@
+<div class="poll-container">
+  <h2 class="poll-question">What's your favorite programming language?</h2>
+  
+  <form id="pollForm" class="poll-form">
+    <div class="poll-options">
+      <div class="option">
+        <input type="radio" id="option1" name="pollOption" value="javascript">
+        <label for="option1">JavaScript</label>
+      </div>
+      
+      <div class="option">
+        <input type="radio" id="option2" name="pollOption" value="python">
+        <label for="option2">Python</label>
+      </div>
+      
+      <div class="option">
+        <input type="radio" id="option3" name="pollOption" value="java">
+        <label for="option3">Java</label>
+      </div>
+      
+      <div class="option">
+        <input type="radio" id="option4" name="pollOption" value="csharp">
+        <label for="option4">C#</label>
+      </div>
+    </div>
+    
+    <button type="submit" class="vote-btn" disabled>Vote</button>
+  </form>
+  
+  <div id="resultMessage" class="result-message" style="display: none;">
+    Thank you for voting!
+  </div>
+</div>
